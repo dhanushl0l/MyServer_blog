@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta tags for SEO -->
+    <meta name="description"
+        content="My-Server is a lightweight, open-source platform to sync devices across Windows, Linux, and Android with ease. Control your data securely and privately.">
+    <meta name="keywords"
+        content="device sync, open-source, data synchronization, clipboard sync, file sync, Rust, Flask, multi-device, cloud sync, local sync">
+    <meta name="author" content="Dhanush L0L">
+
+    <!-- Open Graph data for social sharing -->
+    <meta property="og:title" content="My-Server: Universal Device Sync Platform" />
+    <meta property="og:description"
+        content="Sync your devices with ease, whether local or in the cloud. Supports file sync, clipboard sync, and more." />
+    <meta property="og:image" content="favicon.ico" />
+    <meta property="og:url" content="https://myserver.dhanush.online" />
+    <meta property="og:type" content="website" />
+
+
+    <!-- Title -->
+    <title>My-Server: Universal Device Sync Platform | Sync Devices Easily</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="My-Server: Universal Device Sync Platform">
+    <meta itemprop="description"
+        content="Sync your devices with ease, whether local or in the cloud. Supports file sync, clipboard sync, and more.">
+    <meta itemprop="image" content="favicon.svg">
+
+    <!-- Structured data to enhance SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "My-Server",
+      "description": "An open-source device sync platform to manage and synchronize data across Windows, Linux, and Android.",
+      "operatingSystem": ["Windows", "Linux", "Android"],
+      "applicationCategory": "Utility",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Dhanush L0L"
+      },
+      "datePublished": "2024-10-21",
+      "softwareVersion": "1.0.0",
+      "image": "favicon.svg"
+    }
+    </script>
+</head>
+
+
+<body>
+    <article class="markdown-body">
+        <h1>My-Server: Universal Device Sync Platform</h1>
+        <p><em>Sync your devices, whether local or in the cloud.</em></p>
+
+        <img src="favicon.svg" alt="My-Server Logo" class="logo" width="40%">
+
+        <h2>Overview</h2>
+        <p><strong>My-Server</strong> is a lightweight, self-hosted server that enables seamless data synchronization
+            across all your devices—be it Windows, Linux, or Android. Whether you are looking to sync files, manage
+            notifications, clipboard data, or even SMS, My-Server handles it all.</p>
+        <p>Inspired by the simplicity of Docker but designed for users of all technical levels, My-Server allows you to
+            run your own server on anything from a local network to the cloud, ensuring total privacy and control over
+            your data.</p>
+
+        <h2>Why Device Sync Matters</h2>
+        <p>Every day, we use multiple devices—phones, tablets, laptops—and keeping them in sync can be frustrating.
+            <strong>My-Server</strong> solves this challenge by providing a universal sync platform:
+        </p>
+        <ul>
+            <li>No more missed notifications: Manage calls, SMS, and notifications across all devices.</li>
+            <li>Unified clipboard: Copy text on one device, paste it on another.</li>
+            <li>Seamless file sync: Update documents across all your platforms instantly.</li>
+            <li>Password & search sync: Keep your data available on all devices.</li>
+        </ul>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>File Sync:</strong> Keep your files updated across all devices.</li>
+            <li><strong>Notification Sync:</strong> Sync notifications across devices.</li>
+            <li><strong>Clipboard Sync:</strong> Instant clipboard sync between devices.</li>
+            <li><strong>Phone & SMS Management:</strong> Manage calls and messages from any device.</li>
+            <li><strong>Password and Search Sync:</strong> Access your saved data on all platforms.</li>
+        </ul>
+
+        <h2>Architecture</h2>
+        <p><strong>Client-side Encryption:</strong> All data sent to the server is encrypted client-side, ensuring
+            privacy. Decryption happens locally, giving you full control over your sensitive information.</p>
+        <p><strong>Server Flexibility:</strong> While the current implementation uses a Flask server, this could be
+            replaced by another backend in the future. Our primary focus is flexibility and user control.</p>
+        <p><strong>Rust Apps:</strong> The core apps are written in
+            <strong>Rust</strong>, known for its performance and safety. Each app is designed to run efficiently across
+            all platforms.
+        </p>
+
+        <h2>Getting Started</h2>
+        <p><strong>Requirements:</strong></p>
+        <ul>
+            <li><strong>Python/Flask:</strong> The server backend (optional if using another backend in the future).
+            </li>
+            <li><strong>Hardware:</strong> You can host a Flask app on a PC, an old laptop, an EC2 server, or any cloud
+                server, such as PythonAnywhere.</li>
+        </ul>
+
+        <h2>Roadmap</h2>
+        <p><strong>Current Developments:</strong></p>
+        <ul>
+            <li><strong>Clipboard Sync App</strong> (Rust): First module for syncing clipboard across devices.</li>
+            <li><strong>Figma Mobile App Design</strong>: Initial designs for the mobile app are completed. <a
+                    href="https://www.figma.com/community/file/1407684528016273489/justshare">View</a> </li>
+        </ul>
+
+        <h2>Security</h2>
+        <p>All data is encrypted on the client-side before transmission, ensuring that the server only handles storing
+            data. Decryption is handled by client to maintain security.</p>
+
+        <h2>Contributing</h2>
+        <p><strong>My-Server</strong> is an open-source project! Feel free to contribute by submitting pull requests,
+            reporting bugs, or requesting features.</p>
+
+        <h2>Contact</h2>
+        <p>check out the
+            <a href="https://github.com/dhanushl0l/my-server">GitHub profile for feature updates</a>.
+        </p>
+    </article>
+</body>
+
+</html>
